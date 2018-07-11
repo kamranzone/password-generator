@@ -1,8 +1,7 @@
 import string,os,sys
+
 from random import *
-
 os.system('clear')
-
 def main ():
 
     char = string.ascii_letters + string.punctuation + string.digits + string.hexdigits
@@ -14,9 +13,11 @@ def main ():
 
     if i == "p" or i == "P":
 
-            print("your password is: \n")
+            print("Your password is: \n")
 
             print(passs)
+            print("\nPress enter")
+    elif i == "":
             os.system('clear')
     if i == "e":
         exit()
