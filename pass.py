@@ -1,8 +1,9 @@
 import string,os,sys
 
 from random import *
+os.system('clear')
 def main ():
-    os.system('clear')
+
     char = string.ascii_letters + string.punctuation + string.digits + string.hexdigits
 
     passs = "".join(choice(char) for x in range(randint(8, 16)))
