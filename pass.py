@@ -16,12 +16,19 @@ def main ():
             print("Your password is: \n")
 
             print(passs)
-            print("\nPress enter")
-    elif i == "":
+
+    s = input("\nPress enter")
+    
+    if s == "":
+        
             os.system('clear')
+        
     if i == "e":
+        
         exit()
+        
     main()
+    
 while True:
 
     main()
