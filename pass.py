@@ -1,7 +1,8 @@
 import string,os,sys
-
 from random import *
+
 os.system('clear')
+
 def main ():
 
     char = string.ascii_letters + string.punctuation + string.digits + string.hexdigits
@@ -16,6 +17,7 @@ def main ():
             print("your password is: \n")
 
             print(passs)
+            os.system('clear')
     if i == "e":
         exit()
     main()
